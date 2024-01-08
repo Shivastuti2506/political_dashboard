@@ -21,3 +21,5 @@ python app.py
 - I have used the reddit API keys and ID to scrap and display the top discussions around a city. The heading and url of the discussions for every topic can be seen after runing the project.
 #### latest update 2: After successfully completing the discussion scrapping part, I have prepared the backend for GPTanalyser for analysing sentiments, summaries and demands . Although the code works fine with hardcoded data but while using the actual API keys and LLM models as per the latest openai documentation, they will cost me to increasing my rate limits for using th APIs. Still I have attached the GPT.py file separately for reference with API key and model name mentioned in it. 
 
+#### latest update 3: The frontend has been updated which includes the dropdown for each source ( newsAPI and reddit)
+<img width="867" alt="image" src="https://github.com/Shivastuti2506/political_dashboard/assets/153611876/e8f6032a-880f-4f6b-b6e8-b8fda4582c4b">
