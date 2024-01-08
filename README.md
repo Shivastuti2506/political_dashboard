@@ -16,3 +16,5 @@ python app.py
 - for now , I have gathered an API which provides the top 5 news for the entered country.
 - There is a class GPTAnalyser, which i shall be using for analysis purpose in upcoming commits.
 - For running this folder, we will be using the above dependencies only.
+
+### latest update: till now, we were just able to explore 5 major hot topics, but now, we will be able to see the top 5 discussions( if any ) ongoing about that particular topic.
