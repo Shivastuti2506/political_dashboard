@@ -69,6 +69,13 @@
         <form action="/analyze" method="post">
             <label for="city">Enter City:</label>
             <input type="text" id="city" name="city" required>
+
+            <label for="news-source">Select News Source:</label>
+            <select id="news-source" name="news-source">
+                <option value="newsapi">News API</option>
+                <option value="reddit">Reddit</option>
+            </select>
+
             <button type="submit">Analyze</button>
         </form>
     </div>
