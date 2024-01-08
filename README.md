@@ -22,4 +22,5 @@ python app.py
 #### latest update 2: After successfully completing the discussion scrapping part, I have prepared the backend for GPTanalyser for analysing sentiments, summaries and demands . Although the code works fine with hardcoded data but while using the actual API keys and LLM models as per the latest openai documentation, they will cost me to increasing my rate limits for using th APIs. Still I have attached the GPT.py file separately for reference with API key and model name mentioned in it. 
 
 #### latest update 3: The frontend has been updated which includes the dropdown for each source ( newsAPI and reddit)
-<img width="867" alt="image" src="https://github.com/Shivastuti2506/political_dashboard/assets/153611876/e8f6032a-880f-4f6b-b6e8-b8fda4582c4b">
+<img width="603" alt="image" src="https://github.com/Shivastuti2506/political_dashboard/assets/153611876/c980cbbb-43f8-464d-aa1e-d28f7b6edc47">
+
