@@ -18,3 +18,4 @@ python app.py
 - For running this folder, we will be using the above dependencies only.
 
 ### latest update: till now, we were just able to explore 5 major hot topics, but now, we will be able to see the top 5 discussions( if any ) ongoing about that particular topic.
+- I have used the reddit API keys and ID to scrap and display the top discussions around a city. The heading and url of the discussions for every topic can be seen after runing the project.
