@@ -27,7 +27,7 @@ python app.py
 ### 3 ways for quality checking
 
 #### latest update 4: A file named, faithfulness.py can be used to assess the faithfullness of the scrapped results. To use and verify the function , we need to have a premium openAI key therefore I have attached the function in a separate file. I have assumed that we have some reference ( grountruth ) for the verification purpose. 
-Evaluating the faithfulness of generated text or results typically involves comparing them to a reference or ground truth to determine how accurately the information has been conveyed.
+- Evaluating the faithfulness of generated text or results typically involves comparing them to a reference or ground truth to determine how accurately the information has been conveyed.
 
 - If we don't have a ground truth or reference data to compare against, evaluating faithfulness becomes more challenging. However, we can still implement a simple **heuristic-based evaluation** that considers certain characteristics associated with faithful information. 
 
