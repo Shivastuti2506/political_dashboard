@@ -29,6 +29,6 @@ python app.py
 #### latest update 4: A file named, faithfulness.py can be used to assess the faithfullness of the scrapped results. To use and verify the function , we need to have a premium openAI key therefore I have attached the function in a separate file. I have assumed that we have some reference ( grountruth ) for the verification purpose. 
 Evaluating the faithfulness of generated text or results typically involves comparing them to a reference or ground truth to determine how accurately the information has been conveyed.
 
-- If we don't have a ground truth or reference data to compare against, evaluating faithfulness becomes more challenging. However, we can still implement a simple **heuristic-based evaluation** that considers certain characteristics associated with faithful information. Here's an example of a heuristic-based faithfulness evaluation function:
+- If we don't have a ground truth or reference data to compare against, evaluating faithfulness becomes more challenging. However, we can still implement a simple **heuristic-based evaluation** that considers certain characteristics associated with faithful information. 
 
 - If we don't have a ground truth and we want to evaluate faithfulness in a more nuanced way, we might consider leveraging external sources or fact-checking services. An example is , we could incorporate an external fact-checking API, such as the ClaimReview API provided by Google. 
