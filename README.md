@@ -24,3 +24,7 @@ python app.py
 #### latest update 3: The frontend has been updated which includes the dropdown for each source ( newsAPI and reddit)
 <img width="603" alt="image" src="https://github.com/Shivastuti2506/political_dashboard/assets/153611876/c980cbbb-43f8-464d-aa1e-d28f7b6edc47">
 
+#### latest update 4: A file named, faithfulness.py can be used to assess the faithfullness of the scrapped results. To use and verify the function , we need to have a premium openAI key therefore I have attached the function in a separate file. I have assumed that we have some reference ( grountruth ) for the verification purpose. 
+Evaluating the faithfulness of generated text or results typically involves comparing them to a reference or ground truth to determine how accurately the information has been conveyed.
+
+
