@@ -1,16 +1,20 @@
-# political_dashboard
-The aim is to build a small dashboard which will give us a sense for the kinds of sentiments and discussions happening in a city around a specific topic.
-## Hardcoded_output folder
-### I have attached a Hardcoded_file, in which i have provided a raw structure for the project without using the actual API's for now, one can run the app and see the layout for the same. In order to run the given project , you may need to pip install below requirements.
-- python
-- flask
-- praw
-- openai
-- requests
-#### once having all the dependencies installed , you can run the app using command on the terminal 
-```
+# Political Dashboard 📊
+
+## Overview
+The Political Dashboard is designed to provide insights into sentiments and discussions surrounding a specific topic within a city. The project is built using Python and Flask, leveraging various APIs to gather information. The `Hardcoded_output` folder contains a raw structure of the project with a hardcoded file for initial visualization. The `main` folder is an ongoing project that fetches top news and discussions about a chosen topic.
+
+## Getting Started
+To run the project, ensure you have the following dependencies installed:
+- Python
+- Flask
+- PRAW
+- OpenAI
+- Requests
+
+Use the following command to run the app:
+```bash
 python app.py
-```
+
 ## main folder
 ### for the main project, I have uploaded th main folder, which consists of the ongoing project. 
 - for now , I have gathered an API which provides the top 5 news for the entered country.
