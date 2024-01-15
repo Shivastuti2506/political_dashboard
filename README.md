@@ -14,6 +14,7 @@ To run the project, ensure you have the following dependencies installed:
 Use the following command to run the app:
 ```bash
 python app.py
+```
 
 ## main folder
 ### for the main project, I have uploaded th main folder, which consists of the ongoing project. 
