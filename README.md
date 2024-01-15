@@ -16,22 +16,28 @@ Use the following command to run the app:
 python app.py
 ```
 
-## main folder
-### for the main project, I have uploaded th main folder, which consists of the ongoing project. 
-- for now , I have gathered an API which provides the top 5 news for the entered country.
-- There is a class GPTAnalyser, which i shall be using for analysis purpose in upcoming commits.
-- For running this folder, we will be using the above dependencies only.
+## hardcoded file
+- Explore the provided Hardcoded_file to get a glimpse of the project's layout without using actual APIs.
 
-#### latest update 1: till now, we were just able to explore 5 major hot topics, but now, we will be able to see the top 5 discussions( if any ) ongoing about that particular topic.
+## main folder : the ongoing project
+- I have gathered an API which provides the top 5 news for the entered area.
+- There is a class GPTAnalyser, which we shall be using for analysis purpose in upcoming commits.
+- For running this folder, We will be using the above dependencies only.
+
+#### UPDATE 1:  Gathering Topics and related discussions done
+- Till now, we were just able to explore 5 major hot topics, but now, we will be able to see the top 5 discussions( if any ) ongoing about that particular topic.
 - I have used the reddit API keys and ID to scrap and display the top discussions around a city. The heading and url of the discussions for every topic can be seen after runing the project.
-#### latest update 2: After successfully completing the discussion scrapping part, I have prepared the backend for GPTanalyser for analysing sentiments, summaries and demands . Although the code works fine with hardcoded data but while using the actual API keys and LLM models as per the latest openai documentation, they will cost me to increasing my rate limits for using th APIs. Still I have attached the GPT.py file separately for reference with API key and model name mentioned in it. 
+#### UPDATE 2: Analyser backend prepared
+- After successfully completing the discussion scrapping part, I have prepared the backend for GPTanalyser for analysing sentiments, summaries and demands .
+- Although the code works fine with hardcoded data but while using the actual API keys and LLM models (as per the latest openai documentation), they will cost us to increasing our rate limits for using the APIs.
+- I have attached a GPT.py file separately for reference. 
 
-#### latest update 3: The frontend has been updated which includes the dropdown for each source ( newsAPI and reddit)
+#### UPDATE 3: Frontend updated 
 <img width="603" alt="image" src="https://github.com/Shivastuti2506/political_dashboard/assets/153611876/c980cbbb-43f8-464d-aa1e-d28f7b6edc47">
 
-### 3 ways for quality checking
+### UPDATE 4:  3 ways for quality checking
 
-#### latest update 4: A file named, faithfulness.py can be used to assess the faithfullness of the scrapped results. To use and verify the function , we need to have a premium openAI key therefore I have attached the function in a separate file. I have assumed that we have some reference ( grountruth ) for the verification purpose. 
+####  A file named, faithfulness.py can be used to assess the faithfullness of the scrapped results. To use and verify the function , we need to have a premium openAI key therefore I have attached the function in a separate file. I have assumed that we have some reference ( grountruth ) for the verification purpose. 
 - Evaluating the faithfulness of generated text or results typically involves comparing them to a reference or ground truth to determine how accurately the information has been conveyed.
 
 - If we don't have a ground truth or reference data to compare against, evaluating faithfulness becomes more challenging. However, we can still implement a simple **heuristic-based evaluation** that considers certain characteristics associated with faithful information. 
